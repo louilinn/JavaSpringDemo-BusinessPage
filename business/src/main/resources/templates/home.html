@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>EcoInnovate</h1>
+    <h2>Om oss</h2>
+    <p th:text="${presentation}"></p>
+
+    <h2>Vår vision</h2>
+    <p th:text="${vision}"></p>
+
+    <h2>Vårt mål</h2>
+    <p th:text="${goal}"></p>
+
+    <a th:href="@{/products}">Products</a>
+  </body>
+</html>
